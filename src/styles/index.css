@@ -1,6 +1,6 @@
-@import "../../node_modules/tailwindcss/dist/lib.d.mts";
-@import "preflight.css" layer(base);
-@import '../../node_modules/primereact/resources/themes/lara-light-blue/theme.css' layer(primereact);
-@import "utilities.css" layer(utilities);
+@import "tailwindcss";
+@import "tailwindcss/preflight.css" layer(base);
+@import 'primereact/resources/themes/lara-light-blue/theme.css' layer(primereact);
+@import "tailwindcss/utilities.css" layer(utilities);
 
 @layer theme, base, components, utilities;
