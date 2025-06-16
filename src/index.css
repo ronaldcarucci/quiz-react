@@ -1,6 +1,0 @@
-@import "tailwindcss";
-@import "tailwindcss/preflight.css" layer(base);
-@import 'primereact/resources/themes/lara-light-blue/theme.css' layer(primereact);
-@import "tailwindcss/utilities.css" layer(utilities);
-
-@layer theme, base, components, utilities;
